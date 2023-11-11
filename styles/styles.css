@@ -1,0 +1,132 @@
+body {
+    width: 100%;
+    font-family: Helvetica;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    text-align: center;
+}
+
+/* Header Section */
+header {
+    display: inline-block;
+    padding: 10px 10px 9px 10px;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    border-bottom: 1px solid seashell;
+    height: 50px;
+    width: 100%;
+    z-index: 1;
+}
+
+.div1_logo{
+    float: left;
+}
+
+.div2_navigation {
+    float: right;
+    position: fixed;
+    top: 0px;
+    right: 0px;
+}
+
+.navi {
+    display: flex;
+}
+
+.navi a {
+    color: seashell;
+
+}
+
+.navi li {
+    list-style: none;
+    padding-left: 30px;
+    padding-right: 10px;
+}
+
+
+
+/* Main Section */
+main {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 61px;
+}
+
+/* Main Section: Mission */
+.mission {
+    height:700px;
+    width: 1200px;
+    margin: auto;
+    background-image: url("img-mission-background.jpg");
+    background-repeat: none;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.div8_text{
+    background-color: black;
+    width: 100%;
+    line-height: 0.5;
+}
+
+/* Main Section: Featured Tea */
+.feat {
+    width: 1000px;
+    margin: auto;
+}
+
+.feat div {
+    display: inline-flex;
+    flex-wrap: wrap;
+    width: 325px;
+    align-content: space-between;
+}
+
+figcaption {
+    text-align: center;
+    font-weight: bold;
+}
+
+/* Main Section: Locations */
+.locations {
+    height: 500px;
+    width: 1200px;
+    background-image: url("img-locations-background.jpg");
+    background-repeat: no-repeat;
+    margin: auto;
+}
+
+.locations div {
+    width: 300px;
+    height: 300px;
+    background-color: black;
+    display: inline-flex;
+    flex-direction: column;
+    margin: 15px 20px;
+}
+
+/* Main Section: Contact */
+.contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 200px;
+    padding-bottom: 100px;
+
+}
+
+/* Footer Section */
+footer {
+    position: relative;
+    bottom: 0px;
+    left: 0;
+    padding-left: 20px;
+    padding-top: 7px;
+    text-align: left;
+}
